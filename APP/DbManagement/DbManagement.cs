@@ -46,9 +46,9 @@ namespace APP
                         books.Add(new Book
                         {
                             Id = int.Parse(rdr["Id"].ToString()),
-                            Name = rdr["Title"].ToString(),
-                            Surname = rdr["Author"].ToString(),
-                            Age = int.Parse(rdr["Rate"].ToString())
+                            Title = rdr["Title"].ToString(),
+                            Author = rdr["Author"].ToString(),
+                            Rate = int.Parse(rdr["Rate"].ToString())
                         });
                     }
                 }
